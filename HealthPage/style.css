@@ -1,0 +1,494 @@
+.health {
+    background-color: #170941;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .health .div-2 {
+    background-color: #170941;
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+  }
+  
+  .health .overlap {
+    background-image: url(./rectangle.svg);
+    background-size: 100% 100%;
+    height: 88px;
+    left: -89px;
+    position: absolute;
+    top: -1px;
+    width: 875px;
+  }
+  
+  .health .overlap-2 {
+    height: 58px;
+    left: 94px;
+    position: absolute;
+    top: 11px;
+    width: 354px;
+  }
+  
+  .health .vector {
+    height: 22px;
+    left: 324px;
+    position: absolute;
+    top: 24px;
+    width: 22px;
+  }
+  
+  .health .component {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 354px;
+  }
+  
+  .health .img {
+    height: 13px;
+    left: 305px;
+    position: absolute;
+    top: 2px;
+    width: 19px;
+  }
+  
+  .health .vector-2 {
+    height: 10px;
+    left: 335px;
+    position: absolute;
+    top: 3px;
+    width: 19px;
+  }
+  
+  .health .vector-3 {
+    height: 15px;
+    left: 275px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .health .rectangle {
+    height: 26px;
+    left: 106px;
+    position: absolute;
+    top: 15px;
+    width: 157px;
+  }
+  
+  .health .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    width: 39px;
+  }
+  
+  .health .image {
+    height: 33px;
+    left: 13px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 31px;
+  }
+  
+  .health .vector-wrapper {
+    background-image: url(./ellipse-464.svg);
+    background-size: 100% 100%;
+    height: 34px;
+    left: 335px;
+    position: absolute;
+    top: 53px;
+    width: 35px;
+  }
+  
+  .health .vector-4 {
+    height: 22px;
+    left: 5px;
+    position: absolute;
+    top: 6px;
+    width: 25px;
+  }
+  
+  .health .vector-5 {
+    height: 23px;
+    left: 267px;
+    position: absolute;
+    top: 58px;
+    width: 23px;
+  }
+  
+  .health .iconly-bold-home {
+    height: 24px !important;
+    left: 193px !important;
+    position: absolute !important;
+    top: 57px !important;
+    width: 24px !important;
+  }
+  
+  .health .finished-workout {
+    height: 199px;
+    left: 24px;
+    position: absolute;
+    top: 560px;
+    width: 329px;
+  }
+  
+  .health .headline {
+    color: var(--white);
+    font-family: var(--subtitle-medium-font-family);
+    font-size: var(--subtitle-medium-font-size);
+    font-style: var(--subtitle-medium-font-style);
+    font-weight: var(--subtitle-medium-font-weight);
+    left: 0;
+    letter-spacing: var(--subtitle-medium-letter-spacing);
+    line-height: var(--subtitle-medium-line-height);
+    position: absolute;
+    top: 0;
+  }
+  
+  .health .finished-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 37px !important;
+  }
+  
+  .health .finished-2 {
+    color: #5dc9f6 !important;
+  }
+  
+  .health .finished-3 {
+    background-image: url(./tick-square-2.svg) !important;
+  }
+  
+  .health .finished-4 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 126px !important;
+  }
+  
+  .health .finished-5 {
+    background-image: url(./tick-square-3.svg) !important;
+  }
+  
+  .health .graphics {
+    height: 291px;
+    left: 24px;
+    position: absolute;
+    top: 238px;
+    width: 327px;
+  }
+  
+  .health .active-calories {
+    height: 168px;
+    left: 79px;
+    position: absolute;
+    top: 0;
+    width: 174px;
+  }
+  
+  .health .overlap-group-2 {
+    border: 8px solid;
+    border-color: var(--dark-2);
+    border-radius: 88px;
+    height: 176px;
+    left: -4px;
+    position: relative;
+    top: -4px;
+    width: 176px;
+  }
+  
+  .health .ellipse {
+    height: 168px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    width: 168px;
+  }
+  
+  .health .text-wrapper-3 {
+    color: var(--white);
+    font-family: var(--h1-semibold-font-family);
+    font-size: var(--h1-semibold-font-size);
+    font-style: var(--h1-semibold-font-style);
+    font-weight: var(--h1-semibold-font-weight);
+    left: 29px;
+    letter-spacing: var(--h1-semibold-letter-spacing);
+    line-height: var(--h1-semibold-line-height);
+    position: absolute;
+    top: 49px;
+    white-space: nowrap;
+  }
+  
+  .health .text-wrapper-4 {
+    color: var(--white);
+    font-family: var(--h3-regular-font-family);
+    font-size: var(--h3-regular-font-size);
+    font-style: var(--h3-regular-font-style);
+    font-weight: var(--h3-regular-font-weight);
+    left: 98px;
+    letter-spacing: var(--h3-regular-letter-spacing);
+    line-height: var(--h3-regular-line-height);
+    position: absolute;
+    top: 54px;
+    white-space: nowrap;
+  }
+  
+  .health .subtitle-2 {
+    color: var(--soft);
+    font-family: var(--footnote-regular-font-family);
+    font-size: var(--footnote-regular-font-size);
+    font-style: var(--footnote-regular-font-style);
+    font-weight: var(--footnote-regular-font-weight);
+    left: 30px;
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    position: absolute;
+    top: 87px;
+    white-space: nowrap;
+  }
+  
+  .health .steps {
+    height: 93px;
+    left: 0;
+    position: absolute;
+    top: 198px;
+    width: 97px;
+  }
+  
+  .health .overlap-3 {
+    border: 4px solid;
+    border-color: var(--dark-2);
+    border-radius: 48.5px;
+    height: 97px;
+    left: -2px;
+    position: relative;
+    top: -2px;
+  }
+  
+  .health .ellipse-2 {
+    height: 93px;
+    left: 14px;
+    position: absolute;
+    top: -2px;
+    width: 78px;
+  }
+  
+  .health .text-wrapper-5 {
+    color: var(--white);
+    font-family: var(--h4-semibold-font-family);
+    font-size: var(--h4-semibold-font-size);
+    font-style: var(--h4-semibold-font-style);
+    font-weight: var(--h4-semibold-font-weight);
+    left: 15px;
+    letter-spacing: var(--h4-semibold-letter-spacing);
+    line-height: var(--h4-semibold-line-height);
+    position: absolute;
+    top: 40px;
+    white-space: nowrap;
+  }
+  
+  .health .subtitle-3 {
+    color: var(--soft);
+    font-family: var(--footnote-regular-font-family);
+    font-size: var(--footnote-regular-font-size);
+    font-style: var(--footnote-regular-font-style);
+    font-weight: var(--footnote-regular-font-weight);
+    left: 22px;
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+  }
+  
+  .health .time {
+    height: 93px;
+    left: 117px;
+    position: absolute;
+    top: 198px;
+    width: 95px;
+  }
+  
+  .health .overlap-4 {
+    border: 4px solid;
+    border-color: var(--dark-2);
+    border-radius: 48.5px;
+    height: 97px;
+    left: -2px;
+    position: relative;
+    top: -2px;
+    width: 97px;
+  }
+  
+  .health .ellipse-3 {
+    height: 86px;
+    left: 44px;
+    position: absolute;
+    top: -2px;
+    width: 46px;
+  }
+  
+  .health .subtitle-4 {
+    color: var(--soft);
+    font-family: var(--footnote-regular-font-family);
+    font-size: var(--footnote-regular-font-size);
+    font-style: var(--footnote-regular-font-style);
+    font-weight: var(--footnote-regular-font-weight);
+    left: 25px;
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+  }
+  
+  .health .group {
+    height: 28px;
+    left: 18px;
+    position: absolute;
+    top: 40px;
+    width: 59px;
+  }
+  
+  .health .text-wrapper-6 {
+    color: var(--white);
+    font-family: var(--h4-semibold-font-family);
+    font-size: var(--h4-semibold-font-size);
+    font-style: var(--h4-semibold-font-style);
+    font-weight: var(--h4-semibold-font-weight);
+    left: 0;
+    letter-spacing: var(--h4-semibold-letter-spacing);
+    line-height: var(--h4-semibold-line-height);
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .health .subtitle-5 {
+    color: var(--white);
+    font-family: var(--footnote-regular-font-family);
+    font-size: var(--footnote-regular-font-size);
+    font-style: var(--footnote-regular-font-style);
+    font-weight: var(--footnote-regular-font-weight);
+    left: 31px;
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+  }
+  
+  .health .heart {
+    height: 93px;
+    left: 234px;
+    position: absolute;
+    top: 198px;
+    width: 95px;
+  }
+  
+  .health .ellipse-4 {
+    height: 93px;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    width: 93px;
+  }
+  
+  .health .subtitle-6 {
+    color: var(--soft);
+    font-family: var(--footnote-regular-font-family);
+    font-size: var(--footnote-regular-font-size);
+    font-style: var(--footnote-regular-font-style);
+    font-weight: var(--footnote-regular-font-weight);
+    left: 23px;
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+  }
+  
+  .health .group-2 {
+    height: 28px;
+    left: 18px;
+    position: absolute;
+    top: 40px;
+    width: 63px;
+  }
+  
+  .health .days {
+    height: 64px;
+    left: 35px;
+    position: absolute;
+    top: 143px;
+    width: 310px;
+  }
+  
+  .health .day-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .health .day-2 {
+    left: 54px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .health .day-3 {
+    color: #000000 !important;
+  }
+  
+  .health .day-4 {
+    background-color: #5dc9f6 !important;
+    left: 108px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .health .day-5 {
+    left: 162px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .health .day-6 {
+    left: 216px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .health .day-7 {
+    left: 270px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .health .circle-left {
+    height: 32px !important;
+    left: 16px !important;
+    position: absolute !important;
+    top: 99px !important;
+    width: 32px !important;
+  }
+  
+  .health .circle-left-instance {
+    height: 32px !important;
+    left: 325px !important;
+    position: absolute !important;
+    top: 99px !important;
+    width: 32px !important;
+  }
+  

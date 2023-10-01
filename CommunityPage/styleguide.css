@@ -1,0 +1,25 @@
+:root {
+    --caption-bold-font-family: "OpenSans-Bold", Helvetica;
+    --caption-bold-font-size: 11px;
+    --caption-bold-font-style: normal;
+    --caption-bold-font-weight: 700;
+    --caption-bold-letter-spacing: 0px;
+    --caption-bold-line-height: 13px;
+    --footnote-regular-font-family: "OpenSans-Regular", Helvetica;
+    --footnote-regular-font-size: 13px;
+    --footnote-regular-font-style: normal;
+    --footnote-regular-font-weight: 400;
+    --footnote-regular-letter-spacing: 0px;
+    --footnote-regular-line-height: 16px;
+    --premium: rgba(246, 168, 0, 1);
+    --primary: rgba(208, 253, 62, 1);
+    --soft: rgba(255, 255, 255, 1);
+    --subtitle-semibold-font-family: "OpenSans-SemiBold", Helvetica;
+    --subtitle-semibold-font-size: 17px;
+    --subtitle-semibold-font-style: normal;
+    --subtitle-semibold-font-weight: 600;
+    --subtitle-semibold-letter-spacing: 0px;
+    --subtitle-semibold-line-height: normal;
+    --white: rgba(255, 255, 255, 1);
+  }
+  

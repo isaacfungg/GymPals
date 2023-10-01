@@ -1,0 +1,105 @@
+import React from "react";
+import { Card } from "./Card";
+import { Home } from "./Home";
+import "./style.css";
+
+export const HomeScreen = () => {
+  return (
+    <div className="home-screen">
+      <div className="home-2">
+        <div className="overlap">
+          <img className="img" alt="Vector" src="vector.svg" />
+          <div className="overlap-2">
+            <div className="component">
+              <img className="vector-2" alt="Vector" src="vector-3.svg" />
+              <img className="vector-3" alt="Vector" src="vector-4.svg" />
+              <img className="vector-4" alt="Vector" src="vector-5.svg" />
+              <img className="rectangle-2" alt="Rectangle" src="rectangle-1.svg" />
+              <div className="text-wrapper-2">14:20</div>
+            </div>
+            <img className="image" alt="Image" src="image-21.png" />
+            <img className="vector-5" alt="Vector" src="vector-2.svg" />
+          </div>
+          <div className="iconly-bold-home-wrapper">
+            <Home className="iconly-bold-home" color="#5DC9F6" />
+          </div>
+          <img className="vector-6" alt="Vector" src="image.svg" />
+        </div>
+        <div className="overlap-3">
+          <img className="image-2" alt="Image" src="image-20.png" />
+          <div className="tabs">
+            <div className="overlap-group-2">
+              <div className="text-wrapper-3">Cross-fit Training</div>
+              <div className="text-wrapper-4">Cardio</div>
+              <div className="div-wrapper">
+                <div className="text-wrapper-5">Weight lifting</div>
+              </div>
+            </div>
+          </div>
+          <div className="card-with-title">
+            <div className="title-wrapper">
+              <div className="title-3">
+                <p className="p">
+                  Understanding Macro &amp; Micro <br />
+                  Nutrients
+                </p>
+                <div className="subtitle-2">
+                  <div className="vector-7" />
+                  <div className="subtitle-3">New posts available</div>
+                </div>
+              </div>
+            </div>
+            <p className="headline">What’s New in Your community?</p>
+            <div className="text-link">Sun 1 Oct</div>
+          </div>
+          <div className="text">
+            <div className="text-wrapper-6">Discover new interests?</div>
+            <div className="text-wrapper-7">Trending Meal Plans</div>
+            <div className="text-wrapper-8">More Suggested?</div>
+            <div className="overlap-4">
+              <div className="text-wrapper-9">HELLO JOHND</div>
+              <div className="text-wrapper-10">Good Afternoon</div>
+            </div>
+          </div>
+          <div className="frame">
+            <div className="card-wrapper">
+              <Card
+                cardClassName="card-1-instance"
+                className="card-1"
+                overlapGroupClassName="card-instance"
+                proBadgeProBadgeClassName="card-3"
+                subtitleClassName="card-2"
+                text="Cross-fit Training"
+                text1={
+                  <>
+                    Cross-fit Five day work-out plan <br />
+                    (diet Included)
+                  </>
+                }
+                titleClassName="design-component-instance-node"
+              />
+            </div>
+            <div className="overlap-5">
+              <div className="title-4">Weight lifting</div>
+              <div className="subtitle-4">
+                <div className="vector-7" />
+                <p className="subtitle-3">5 day workout plan (Keto Diet)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="group-wrapper">
+          <div className="group">
+            <div className="frame-2">
+              <div className="group-2">
+                <div className="group-3" />
+                <div className="group-4" />
+                <div className="group-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

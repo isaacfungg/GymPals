@@ -1,0 +1,11 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --primary: rgba(208, 253, 62, 1);
+    --subtitle-semibold-font-family: "OpenSans-SemiBold", Helvetica;
+    --subtitle-semibold-font-weight: 600;
+    --subtitle-semibold-font-size: 17px;
+    --subtitle-semibold-letter-spacing: 0px;
+    --subtitle-semibold-line-height: normal;
+    --subtitle-semibold-font-style: normal;
+  }
+  

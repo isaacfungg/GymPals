@@ -1,0 +1,152 @@
+.onboarding {
+    background-color: #170941;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .onboarding .div {
+    background-color: #170941;
+    width: 375px;
+    height: 812px;
+    position: relative;
+  }
+  
+  .onboarding .overlap-group {
+    position: absolute;
+    width: 375px;
+    height: 434px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/background.png);
+    background-size: 100% 100%;
+  }
+  
+  .onboarding .component {
+    position: relative;
+    width: 354px;
+    height: 40px;
+    top: 8px;
+    left: 8px;
+  }
+  
+  .onboarding .vector {
+    position: absolute;
+    width: 19px;
+    height: 13px;
+    top: 2px;
+    left: 305px;
+  }
+  
+  .onboarding .img {
+    position: absolute;
+    width: 19px;
+    height: 10px;
+    top: 3px;
+    left: 335px;
+  }
+  
+  .onboarding .vector-2 {
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 0;
+    left: 275px;
+  }
+  
+  .onboarding .rectangle {
+    position: absolute;
+    width: 157px;
+    height: 26px;
+    top: 15px;
+    left: 106px;
+  }
+  
+  .onboarding .text-wrapper {
+    position: absolute;
+    width: 39px;
+    top: -1px;
+    left: 25px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .onboarding .indicator {
+    position: absolute;
+    width: 88px;
+    height: 4px;
+    top: 744px;
+    left: 143px;
+  }
+  
+  .onboarding .rectangle-2 {
+    position: absolute;
+    width: 36px;
+    height: 4px;
+    top: 0;
+    left: 0;
+    background-color: #0066c5;
+  }
+  
+  .onboarding .rectangle-3 {
+    position: absolute;
+    width: 16px;
+    height: 4px;
+    top: 0;
+    left: 46px;
+    background-color: #94a8ba;
+  }
+  
+  .onboarding .rectangle-4 {
+    position: absolute;
+    width: 16px;
+    height: 4px;
+    top: 0;
+    left: 72px;
+    background-color: #93a7b9;
+  }
+  
+  .onboarding .READY-TO-JOIN-THE {
+    position: absolute;
+    width: 348px;
+    height: 59px;
+    top: 519px;
+    left: 14px;
+    font-family: "Allerta-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.32px;
+    line-height: 32px;
+  }
+  
+  .onboarding .span {
+    color: #ffffff;
+  }
+  
+  .onboarding .text-wrapper-2 {
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 1.76px;
+  }
+  
+  .onboarding .text-wrapper-3 {
+    color: #5dc8f6;
+    font-size: 36px;
+    letter-spacing: 1.98px;
+  }
+  
+  .onboarding .vector-3 {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 451px;
+    left: 313px;
+  }
+  
