@@ -1,0 +1,620 @@
+.home {
+    background-color: #170941;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: #170941;
+    overflow: hidden;
+    width: 375px;
+    height: 812px;
+    position: relative;
+  }
+  
+  .home .overlap {
+    position: absolute;
+    width: 1201px;
+    height: 92px;
+    top: -1px;
+    left: -415px;
+    background-image: url(./img/rectangle.svg);
+    background-size: 100% 100%;
+  }
+  
+  .home .vector {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 58px;
+    left: 593px;
+  }
+  
+  .home .overlap-group {
+    position: absolute;
+    width: 354px;
+    height: 58px;
+    top: 11px;
+    left: 420px;
+  }
+  
+  .home .component {
+    position: absolute;
+    width: 354px;
+    height: 40px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .img {
+    position: absolute;
+    width: 19px;
+    height: 13px;
+    top: 2px;
+    left: 305px;
+  }
+  
+  .home .vector-2 {
+    position: absolute;
+    width: 19px;
+    height: 10px;
+    top: 3px;
+    left: 335px;
+  }
+  
+  .home .vector-3 {
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 0;
+    left: 275px;
+  }
+  
+  .home .rectangle {
+    position: absolute;
+    width: 157px;
+    height: 26px;
+    top: 15px;
+    left: 106px;
+  }
+  
+  .home .text-wrapper {
+    position: absolute;
+    width: 39px;
+    top: -1px;
+    left: 25px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image {
+    width: 31px;
+    height: 33px;
+    top: 25px;
+    left: 13px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .vector-4 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 28px;
+    left: 325px;
+  }
+  
+  .home .iconly-bold-home-wrapper {
+    position: absolute;
+    width: 35px;
+    height: 34px;
+    top: 52px;
+    left: 513px;
+    background-image: url(./img/ellipse-462.svg);
+    background-size: 100% 100%;
+  }
+  
+  .home .iconly-bold-home {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 5px;
+    left: 6px;
+  }
+  
+  .home .vector-5 {
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 59px;
+    left: 666px;
+  }
+  
+  .home .overlap-2 {
+    position: absolute;
+    width: 351px;
+    height: 593px;
+    top: 91px;
+    left: 11px;
+  }
+  
+  .home .image-2 {
+    width: 323px;
+    height: 160px;
+    top: 100px;
+    left: 12px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .home .tabs {
+    position: absolute;
+    width: 333px;
+    height: 38px;
+    top: 323px;
+    left: 13px;
+  }
+  
+  .home .overlap-group-2 {
+    position: relative;
+    width: 327px;
+    height: 38px;
+  }
+  
+  .home .rectangle-2 {
+    position: absolute;
+    width: 327px;
+    height: 28px;
+    top: 10px;
+    left: 0;
+    background-color: var(--dark-2);
+    border-radius: 32px;
+  }
+  
+  .home .selection {
+    position: absolute;
+    width: 127px;
+    height: 28px;
+    top: 10px;
+    left: 0;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-3 {
+    position: absolute;
+    top: 16px;
+    left: 152px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .home .weight-lifting {
+    position: absolute;
+    top: 0;
+    left: 230px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .home .card-with-title {
+    position: absolute;
+    width: 327px;
+    height: 197px;
+    top: 63px;
+    left: 9px;
+  }
+  
+  .home .card {
+    width: 327px;
+    top: 37px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(17, 17, 18, 0) 0%, rgba(17, 17, 18, 0.6) 100%);
+    position: absolute;
+    height: 160px;
+    left: 0;
+  }
+  
+  .home .title {
+    display: inline-flex;
+    flex-direction: column;
+    height: 41px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 4px;
+    position: relative;
+    top: 103px;
+    left: 16px;
+  }
+  
+  .home .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -26px;
+    font-family: var(--subtitle-semibold-font-family);
+    font-weight: var(--subtitle-semibold-font-weight);
+    color: var(--white);
+    font-size: var(--subtitle-semibold-font-size);
+    letter-spacing: var(--subtitle-semibold-letter-spacing);
+    line-height: var(--subtitle-semibold-line-height);
+    font-style: var(--subtitle-semibold-font-style);
+  }
+  
+  .home .subtitle {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home .vector-6 {
+    position: relative;
+    width: 11px;
+    height: 2px;
+    margin-left: -4.5px;
+    background-color: var(--primary);
+    transform: rotate(-90deg);
+  }
+  
+  .home .subtitle-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--footnote-regular-font-family);
+    font-weight: var(--footnote-regular-font-weight);
+    color: #5dc9f6;
+    font-size: var(--footnote-regular-font-size);
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--footnote-regular-font-style);
+  }
+  
+  .home .headline {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-link {
+    position: absolute;
+    top: 3px;
+    left: 267px;
+    font-family: var(--footnote-regular-font-family);
+    font-weight: var(--footnote-regular-font-weight);
+    color: #5dc9f6;
+    font-size: var(--footnote-regular-font-size);
+    text-align: right;
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--footnote-regular-font-style);
+  }
+  
+  .home .text {
+    position: absolute;
+    width: 336px;
+    height: 593px;
+    top: 0;
+    left: 9px;
+  }
+  
+  .home .text-wrapper-4 {
+    position: absolute;
+    top: 300px;
+    left: 1px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-5 {
+    position: absolute;
+    top: 573px;
+    left: 4px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-6 {
+    position: absolute;
+    top: 315px;
+    left: 222px;
+    font-family: var(--footnote-regular-font-family);
+    font-weight: var(--footnote-regular-font-weight);
+    color: #0066c5;
+    font-size: var(--footnote-regular-font-size);
+    text-align: right;
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--footnote-regular-font-style);
+  }
+  
+  .home .overlap-3 {
+    position: absolute;
+    width: 256px;
+    height: 58px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .text-wrapper-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Archivo Black-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 43px;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-8 {
+    position: absolute;
+    top: 37px;
+    left: 0;
+    font-family: var(--body-regular-font-family);
+    font-weight: var(--body-regular-font-weight);
+    color: var(--soft);
+    font-size: var(--body-regular-font-size);
+    letter-spacing: var(--body-regular-letter-spacing);
+    line-height: var(--body-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--body-regular-font-style);
+  }
+  
+  .home .frame {
+    position: absolute;
+    width: 351px;
+    height: 160px;
+    top: 378px;
+    left: 0;
+    overflow-x: scroll;
+  }
+  
+  .home .overlap-4 {
+    position: relative;
+    width: 654px;
+    height: 160px;
+  }
+  
+  .home .card-wrapper {
+    position: absolute;
+    width: 319px;
+    height: 160px;
+    top: 0;
+    left: 335px;
+  }
+  
+  .home .overlap-group-wrapper {
+    height: 160px;
+  }
+  
+  .home .overlap-group-3 {
+    width: 319px;
+    position: relative;
+    height: 160px;
+  }
+  
+  .home .rectangle-wrapper {
+    width: 319px;
+    top: 0;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    height: 160px;
+    left: 0;
+  }
+  
+  .home .rectangle-3 {
+    height: 160px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(17, 17, 18, 0) 0%, rgba(17, 17, 18, 0.6) 100%);
+  }
+  
+  .home .title-2 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 41px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 4px;
+    position: absolute;
+    top: 103px;
+    left: 16px;
+  }
+  
+  .home .title-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -19px;
+    font-family: var(--subtitle-semibold-font-family);
+    font-weight: var(--subtitle-semibold-font-weight);
+    color: var(--white);
+    font-size: var(--subtitle-semibold-font-size);
+    letter-spacing: var(--subtitle-semibold-letter-spacing);
+    line-height: var(--subtitle-semibold-line-height);
+    font-style: var(--subtitle-semibold-font-style);
+  }
+  
+  .home .subtitle-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--footnote-regular-font-family);
+    font-weight: var(--footnote-regular-font-weight);
+    color: #5dc9f6;
+    font-size: var(--footnote-regular-font-size);
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    font-style: var(--footnote-regular-font-style);
+  }
+  
+  .home .pro-badge {
+    position: absolute;
+    width: 33px;
+    height: 16px;
+    top: 128px;
+    left: 270px;
+    background-color: var(--premium);
+    border-radius: 4px;
+  }
+  
+  .home .title-4 {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-family: var(--caption-bold-font-family);
+    font-weight: var(--caption-bold-font-weight);
+    color: var(--white);
+    font-size: var(--caption-bold-font-size);
+    letter-spacing: var(--caption-bold-letter-spacing);
+    line-height: var(--caption-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-bold-font-style);
+  }
+  
+  .home .div-wrapper {
+    position: absolute;
+    width: 353px;
+    height: 160px;
+    top: 0;
+    left: 0;
+    overflow-x: scroll;
+  }
+  
+  .home .card-2 {
+    width: 319px;
+    height: 160px;
+  }
+  
+  .home .overlap-group-4 {
+    position: relative;
+    height: 160px;
+  }
+  
+  .home .card-3 {
+    width: 319px;
+    top: 0;
+    background-image: url(./img/image-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    height: 160px;
+    left: 0;
+  }
+  
+  .home .title-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -3px;
+    font-family: var(--subtitle-semibold-font-family);
+    font-weight: var(--subtitle-semibold-font-weight);
+    color: var(--white);
+    font-size: var(--subtitle-semibold-font-size);
+    letter-spacing: var(--subtitle-semibold-letter-spacing);
+    line-height: var(--subtitle-semibold-line-height);
+    font-style: var(--subtitle-semibold-font-style);
+  }
+  
+  .home .group-wrapper {
+    position: absolute;
+    width: 345px;
+    height: 204px;
+    top: 687px;
+    left: 24px;
+    overflow-x: scroll;
+  }
+  
+  .home .group {
+    width: 586px;
+    height: 204px;
+  }
+  
+  .home .frame-2 {
+    height: 204px;
+  }
+  
+  .home .group-2 {
+    position: relative;
+    width: 586px;
+    height: 204px;
+  }
+  
+  .home .group-3 {
+    position: absolute;
+    width: 191px;
+    height: 204px;
+    top: 0;
+    left: 200px;
+    background-image: url(./img/image-25.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home .group-4 {
+    position: absolute;
+    width: 180px;
+    height: 204px;
+    top: 0;
+    left: 406px;
+    background-image: url(./img/image-24.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home .group-5 {
+    position: absolute;
+    width: 185px;
+    height: 196px;
+    top: 8px;
+    left: 0;
+    background-image: url(./img/image-23.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  

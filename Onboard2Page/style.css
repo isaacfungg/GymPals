@@ -1,0 +1,108 @@
+.onboarding {
+    background-color: #170941;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .onboarding .div {
+    background-color: #170941;
+    overflow: hidden;
+    width: 375px;
+    height: 812px;
+    position: relative;
+  }
+  
+  .onboarding .overlap-group {
+    position: absolute;
+    width: 375px;
+    height: 503px;
+    top: 0;
+    left: 0;
+  }
+  
+  .onboarding .background {
+    position: absolute;
+    width: 375px;
+    height: 460px;
+    top: 0;
+    left: 0;
+  }
+  
+  .onboarding .vector {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 450px;
+    left: 312px;
+  }
+  
+  .onboarding .img {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 450px;
+    left: 13px;
+  }
+  
+  .onboarding .indicator {
+    position: absolute;
+    width: 88px;
+    height: 4px;
+    top: 743px;
+    left: 143px;
+  }
+  
+  .onboarding .rectangle {
+    width: 36px;
+    left: 0;
+    background-color: #94a8ba;
+    position: absolute;
+    height: 4px;
+    top: 0;
+  }
+  
+  .onboarding .rectangle-2 {
+    width: 16px;
+    left: 46px;
+    background-color: #0066c5;
+    position: absolute;
+    height: 4px;
+    top: 0;
+  }
+  
+  .onboarding .rectangle-3 {
+    width: 16px;
+    left: 72px;
+    background-color: #93a7b9;
+    position: absolute;
+    height: 4px;
+    top: 0;
+  }
+  
+  .onboarding .CREATE-AN-ACCOUNT {
+    position: absolute;
+    width: 437px;
+    height: 96px;
+    top: 516px;
+    left: -31px;
+    font-family: "Allerta-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.32px;
+    line-height: 32px;
+  }
+  
+  .onboarding .text-wrapper {
+    color: #ffffff;
+  }
+  
+  .onboarding .span {
+    color: #5dc9f6;
+    font-size: 36px;
+    letter-spacing: 1.98px;
+  }
+  

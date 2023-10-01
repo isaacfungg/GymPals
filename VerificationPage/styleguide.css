@@ -1,0 +1,25 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --soft: rgba(255, 255, 255, 1);
+    --primary: rgba(208, 253, 62, 1);
+    --label-color-dark-primary: rgba(255, 255, 255, 1);
+    --subtitle-semibold-font-family: "OpenSans-SemiBold", Helvetica;
+    --subtitle-semibold-font-weight: 600;
+    --subtitle-semibold-font-size: 17px;
+    --subtitle-semibold-letter-spacing: 0px;
+    --subtitle-semibold-line-height: normal;
+    --subtitle-semibold-font-style: normal;
+    --footnote-medium-font-family: "OpenSans-SemiBold", Helvetica;
+    --footnote-medium-font-weight: 600;
+    --footnote-medium-font-size: 13px;
+    --footnote-medium-letter-spacing: 0px;
+    --footnote-medium-line-height: 16px;
+    --footnote-medium-font-style: normal;
+    --h2-semibold-font-family: "OpenSans-SemiBold", Helvetica;
+    --h2-semibold-font-weight: 600;
+    --h2-semibold-font-size: 28px;
+    --h2-semibold-letter-spacing: 0px;
+    --h2-semibold-line-height: 30px;
+    --h2-semibold-font-style: normal;
+  }
+  

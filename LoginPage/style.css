@@ -1,0 +1,272 @@
+.login {
+    background-color: #170941;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .login .div {
+    background-color: #170941;
+    width: 375px;
+    height: 812px;
+    position: relative;
+  }
+  
+  .login .background {
+    position: absolute;
+    width: 375px;
+    height: 394px;
+    top: 418px;
+    left: 0;
+  }
+  
+  .login .buttons {
+    position: absolute;
+    width: 310px;
+    height: 54px;
+    top: 338px;
+    left: 41px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .login .small-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px 20px 13px 28px;
+    position: absolute;
+    top: 2px;
+    left: 185px;
+    background-color: #1c1c1e;
+    border-radius: 48px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .login .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login .sign-up {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--subtitle-semibold-font-family);
+    font-weight: var(--subtitle-semibold-font-weight);
+    color: #0066c5;
+    font-size: var(--subtitle-semibold-font-size);
+    text-align: center;
+    letter-spacing: var(--subtitle-semibold-letter-spacing);
+    line-height: var(--subtitle-semibold-line-height);
+    font-style: var(--subtitle-semibold-font-style);
+  }
+  
+  .login .chevron-right {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .login .account-button {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 0;
+    left: 75px;
+    background-color: var(--dark-3);
+    border-radius: 27px;
+  }
+  
+  .login .google {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 15px;
+    left: 15px;
+    background-image: url(./img/union.svg);
+    background-size: 100% 100%;
+  }
+  
+  .login .apple-wrapper {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    background-color: var(--dark-3);
+    border-radius: 27px;
+  }
+  
+  .login .apple {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .login .inputs {
+    position: absolute;
+    width: 313px;
+    height: 176px;
+    top: 118px;
+    left: 32px;
+  }
+  
+  .login .text-wrapper {
+    position: absolute;
+    top: 160px;
+    left: 196px;
+    font-family: var(--footnote-medium-font-family);
+    font-weight: var(--footnote-medium-font-weight);
+    color: #0066c5;
+    font-size: var(--footnote-medium-font-size);
+    letter-spacing: var(--footnote-medium-letter-spacing);
+    line-height: var(--footnote-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--footnote-medium-font-style);
+  }
+  
+  .login .input {
+    top: 80px;
+    position: absolute;
+    width: 311px;
+    height: 60px;
+    left: 0;
+  }
+  
+  .login .rectangle {
+    position: absolute;
+    width: 311px;
+    height: 1px;
+    top: 60px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .login .placeholder {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    font-family: var(--subtitle-regular-font-family);
+    font-weight: var(--subtitle-regular-font-weight);
+    color: #ffffff;
+    font-size: var(--subtitle-regular-font-size);
+    letter-spacing: var(--subtitle-regular-letter-spacing);
+    line-height: var(--subtitle-regular-line-height);
+    font-style: var(--subtitle-regular-font-style);
+  }
+  
+  .login .input-2 {
+    top: 0;
+    position: absolute;
+    width: 311px;
+    height: 60px;
+    left: 0;
+  }
+  
+  .login .tabs {
+    position: absolute;
+    width: 117px;
+    height: 26px;
+    top: 58px;
+    left: 32px;
+  }
+  
+  .login .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--footnote-medium-font-family);
+    font-weight: var(--footnote-medium-font-weight);
+    color: #ffffff;
+    font-size: var(--footnote-medium-font-size);
+    letter-spacing: var(--footnote-medium-letter-spacing);
+    line-height: var(--footnote-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--footnote-medium-font-style);
+  }
+  
+  .login .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 67px;
+    font-family: var(--footnote-medium-font-family);
+    font-weight: var(--footnote-medium-font-weight);
+    color: var(--soft);
+    font-size: var(--footnote-medium-font-size);
+    letter-spacing: var(--footnote-medium-letter-spacing);
+    line-height: var(--footnote-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--footnote-medium-font-style);
+  }
+  
+  .login .selection {
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    top: 23px;
+    left: 0;
+    background-color: #0066c5;
+  }
+  
+  .login .component {
+    position: absolute;
+    width: 354px;
+    height: 40px;
+    top: 7px;
+    left: 11px;
+  }
+  
+  .login .vector {
+    position: absolute;
+    width: 19px;
+    height: 13px;
+    top: 2px;
+    left: 305px;
+  }
+  
+  .login .img {
+    position: absolute;
+    width: 19px;
+    height: 10px;
+    top: 3px;
+    left: 335px;
+  }
+  
+  .login .vector-2 {
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 0;
+    left: 275px;
+  }
+  
+  .login .rectangle-2 {
+    position: absolute;
+    width: 157px;
+    height: 26px;
+    top: 15px;
+    left: 106px;
+  }
+  
+  .login .text-wrapper-4 {
+    position: absolute;
+    width: 39px;
+    top: -1px;
+    left: 25px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
