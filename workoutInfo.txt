@@ -5,3 +5,4 @@ Leg Day,Strength,Squats;Deadlifts;Lunges
 Core Workout,Strength,Planks;Russian twists;Leg raises
 HIIT Workout,High-Intensity Interval Training,Sprints;Burpees;Mountain climbers
 Yoga,Stretching,Downward dog;Warrior pose;Child's pose
+d,d,d

@@ -59,7 +59,7 @@ class MealPlanDatabase {
       this.mealPlans.forEach((mealPlan, index) => {
         console.log(`#${index + 1}`);
         console.log(`Title: ${mealPlan.getTitle}`);
-        console.log(`Recipes: ${mealPlan.getRecipes.join(', ')}`);
+        console.log(`Recipes: ${mealPlan.getRecipe.join(', ')}`);
         console.log(`Calories: ${mealPlan.getCalories}`);
         console.log(`Protein: ${mealPlan.getProtein}`);
         console.log(); 

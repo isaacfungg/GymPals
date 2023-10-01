@@ -4,3 +4,4 @@ isaac,password,0,0,,
 1,dasfdasfaf,0,0,,
 test9,password,100,150,Male,Body Building
 test8,password,100,150,Male,Body Building
+Isaac,password,100,160,Male,Cardio

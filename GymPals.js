@@ -18,7 +18,6 @@ while(loggedIn) {
 }
 
 
-
 function loginOrCreateAccount(accountDatabase) {
   do {
     var answer = prompt("Would you like to create a new account(1) or login to an existing account(2)?");

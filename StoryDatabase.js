@@ -1,5 +1,6 @@
 const fs = require("fs");
 const readlineSync = require("readline-sync");
+const prompt = require("prompt-sync")();
 
 class Story {
 
