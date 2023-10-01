@@ -1,6 +1,7 @@
 const AccountDatabase = require('./AccountDatabase.js');
+const prompt = require("prompt-sync")();
 
-
+const accountDatabase = new AccountDatabase();
 //Signing in or Creating an Account
 var loggedIn = false;
 do {
@@ -29,7 +30,6 @@ function displayOptions() {
     switch(answer) {
         case '1': 
             feature = displayFeatures();
-            
             break;
         case '2':
             feature = displayFeatures();

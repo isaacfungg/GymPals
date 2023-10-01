@@ -1,5 +1,5 @@
-const fs = require('fs');
-const readlineSync = require('readline-sync');
+const fs = require("fs");
+const readlineSync = require("readline-sync");
 
 class Account {
   constructor(username, password) {
@@ -27,25 +27,26 @@ class Account {
 class AccountDatabase {
   constructor() {
     this.accounts = [];
-    this.readFromFile('accountInfo.txt'); 
+    this.filePath = "accountInfo.txt";
+    this.readFromFile(this.filePath); 
   }
 
   readFromFile(filePath) {
     try {
-      const fileContents = fs.readFileSync(filePath, 'utf8');
-      const data = fileContents.split('\n');
+      const fileContents = fs.readFileSync(filePath, "utf8");
+      const data = fileContents.split("\n");
 
       for (const line of data) {
-        const [username, password] = line.split(',');
+        const [username, password] = line.split(",");
         if (username && password) {
           const account = new Account(username, password);
           this.accounts.push(account);
         }
       }
 
-      console.log('Accounts loaded from file.');
+      console.log("Accounts loaded from file.");
     } catch (error) {
-      console.error('Error reading file:', error);
+      console.error("Error reading file:", error);
     }
   }
 
@@ -54,26 +55,27 @@ class AccountDatabase {
     let password;
 
     do {
-      username = readlineSync.question('Enter a username: ');
+      username = readlineSync.question("Enter a username: ");
 
     if (this.isUsernameTaken(username)) {
-      console.log('Username is already taken. Please choose another.');
+      console.log("Username is already taken. Please choose another.");
       }
     } while (this.isUsernameTaken(username));
 
     do {
-      password = readlineSync.question('Enter a password (at least 8 characters): ', {
+      password = readlineSync.question("Enter a password (at least 8 characters): ", {
         hideEchoBack: true,
       });
 
       if (password.length < 8) {
-        console.log('Password must be at least 8 characters long.');
+        console.log("Password must be at least 8 characters long.");
       }
     } while (password.length < 8);
 
     const account = new Account(username, password);
     this.accounts.push(account);
-    console.log('Account created successfully.');
+    console.log("Account created successfully.");
+    this.writeToFile(account);
   }
 
   isUsernameTaken(username) {
@@ -84,11 +86,15 @@ class AccountDatabase {
     return this.accounts.find((acc) => acc.getUsername() === username && acc.getPassword() === password);
   }
 
-  // List all accounts
-  listAccounts() {
-    console.log('Account List:');
-    this.accounts.forEach((account) => {
-      console.log(`Username: ${account.getUsername()}`);
-    });
+  writeToFile(account) {
+    try {
+      const formattedLine = `${account.getUsername()},${account.getPassword()}`;
+      fs.appendFileSync(this.filePath, formattedLine + "\n", "utf8");
+      console.log("Account information saved to file successfully.");
+    } catch (error) {
+      console.error("Error writing to file:", error);
+    }
   }
+
 }
+module.exports = AccountDatabase;
