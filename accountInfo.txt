@@ -3,3 +3,4 @@ isaac,password,140,160,Male,Strength Trainging
 isaac,password,0,0,,
 1,dasfdasfaf,0,0,,
 test9,password,100,150,Male,Body Building
+test8,password,100,150,Male,Body Building

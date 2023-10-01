@@ -45,7 +45,7 @@ class MealPlan {
 class MealPlanDatabase {
     constructor() {
       this.mealPlans = [];
-      this.filePath = 'mealInfo.txt'; 
+      this.filePath = 'mealPlanInfo.txt'; 
       this.readFromFile();
     }
 

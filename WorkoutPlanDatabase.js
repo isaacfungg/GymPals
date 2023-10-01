@@ -72,7 +72,6 @@ class WorkoutPlan {
   
       console.log("Workout Plans:");
       this.workouts.forEach((workout, index) => {
-        console.log(`#${index + 1}`);
         console.log(`Title: ${workout.getTitle}`);
         console.log(`Exercise Type: ${workout.getExerciseType}`);
         console.log(`Exercises: ${workout.getExercises.join(', ')}`);
