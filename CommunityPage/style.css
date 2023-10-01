@@ -1,0 +1,494 @@
+.community {
+    background-color: #170941;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .community .div {
+    background-color: #170941;
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+  }
+  
+  .community .overlap {
+    background-image: url(./rectangle.svg);
+    background-size: 100% 100%;
+    height: 88px;
+    left: -89px;
+    position: absolute;
+    top: -1px;
+    width: 875px;
+  }
+  
+  .community .overlap-group {
+    height: 58px;
+    left: 94px;
+    position: absolute;
+    top: 11px;
+    width: 354px;
+  }
+  
+  .community .vector {
+    height: 22px;
+    left: 322px;
+    position: absolute;
+    top: 24px;
+    width: 22px;
+  }
+  
+  .community .component-2 {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 354px;
+  }
+  
+  .community .img {
+    height: 13px;
+    left: 305px;
+    position: absolute;
+    top: 2px;
+    width: 19px;
+  }
+  
+  .community .vector-2 {
+    height: 10px;
+    left: 335px;
+    position: absolute;
+    top: 3px;
+    width: 19px;
+  }
+  
+  .community .vector-3 {
+    height: 15px;
+    left: 275px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .community .rectangle {
+    height: 26px;
+    left: 106px;
+    position: absolute;
+    top: 15px;
+    width: 157px;
+  }
+  
+  .community .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    width: 39px;
+  }
+  
+  .community .image {
+    height: 33px;
+    left: 13px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 31px;
+  }
+  
+  .community .vector-wrapper {
+    background-image: url(./ellipse-464.svg);
+    background-size: 100% 100%;
+    height: 34px;
+    left: 261px;
+    position: absolute;
+    top: 53px;
+    width: 35px;
+  }
+  
+  .community .vector-4 {
+    height: 23px;
+    left: 6px;
+    position: absolute;
+    top: 5px;
+    width: 23px;
+  }
+  
+  .community .iconly-bold-home {
+    height: 24px !important;
+    left: 193px !important;
+    position: absolute !important;
+    top: 57px !important;
+    width: 24px !important;
+  }
+  
+  .community .vector-5 {
+    height: 22px;
+    left: 340px;
+    position: absolute;
+    top: 59px;
+    width: 25px;
+  }
+  
+  .community .overlap-2 {
+    height: 688px;
+    left: 27px;
+    position: absolute;
+    top: 145px;
+    width: 337px;
+  }
+  
+  .community .cards {
+    height: 688px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 337px;
+  }
+  
+  .community .overlap-3 {
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 528px;
+    width: 327px;
+  }
+  
+  .community .div-2 {
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 327px;
+  }
+  
+  .community .overlap-group-2 {
+    height: 160px;
+    position: relative;
+  }
+  
+  .community .card {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 327px;
+  }
+  
+  .community .rectangle-2 {
+    background: linear-gradient(180deg, rgba(17, 17, 18, 0) 0%, rgba(17, 17, 18, 0.6) 100%);
+    border-radius: 16px;
+    height: 160px;
+  }
+  
+  .community .title {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 41px;
+    justify-content: flex-end;
+    left: 16px;
+    position: absolute;
+    top: 103px;
+  }
+  
+  .community .title-2 {
+    color: var(--white);
+    font-family: var(--subtitle-semibold-font-family);
+    font-size: var(--subtitle-semibold-font-size);
+    font-style: var(--subtitle-semibold-font-style);
+    font-weight: var(--subtitle-semibold-font-weight);
+    letter-spacing: var(--subtitle-semibold-letter-spacing);
+    line-height: var(--subtitle-semibold-line-height);
+    margin-top: -3px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .community .subtitle {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 5px;
+    position: relative;
+  }
+  
+  .community .vector-6 {
+    background-color: var(--primary);
+    height: 2px;
+    margin-left: -4.5px;
+    position: relative;
+    transform: rotate(-90deg);
+    width: 11px;
+  }
+  
+  .community .subtitle-2 {
+    color: #5dc9f6;
+    font-family: var(--footnote-regular-font-family);
+    font-size: var(--footnote-regular-font-size);
+    font-style: var(--footnote-regular-font-style);
+    font-weight: var(--footnote-regular-font-weight);
+    letter-spacing: var(--footnote-regular-letter-spacing);
+    line-height: var(--footnote-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .community .text-wrapper-2 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 312px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 114px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .text-wrapper-3 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 285px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 114px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .overlap-wrapper {
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 352px;
+    width: 327px;
+  }
+  
+  .community .rectangle-wrapper {
+    background-image: url(./image-2.png);
+    background-size: 100% 100%;
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 327px;
+  }
+  
+  .community .vector-7 {
+    background-color: #ff2424;
+    height: 2px;
+    margin-left: -4.5px;
+    position: relative;
+    transform: rotate(-90deg);
+    width: 11px;
+  }
+  
+  .community .overlap-4 {
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 176px;
+    width: 327px;
+  }
+  
+  .community .div-wrapper {
+    background-image: url(./image-3.png);
+    background-size: 100% 100%;
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 327px;
+  }
+  
+  .community .text-wrapper-4 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 307px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 123px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .text-wrapper-5 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 123px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .card-2 {
+    background-image: url(./image-4.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 327px;
+  }
+  
+  .community .text-wrapper-6 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 305px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 122px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .comment-alt {
+    height: 25px;
+    left: 253px;
+    position: absolute;
+    top: 132px;
+    width: 25px;
+  }
+  
+  .community .component-5 {
+    left: 273px !important;
+    top: 140px !important;
+  }
+  
+  .community .component-6 {
+    height: 17px !important;
+    left: 280px !important;
+    position: absolute !important;
+    top: 660px !important;
+    width: 45px !important;
+  }
+  
+  .community .text-wrapper-7 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 279px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 121px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .text-wrapper-8 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 307px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 475px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .text-wrapper-9 {
+    color: #e7e7e7;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 4px;
+    font-weight: 700;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 475px;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .community .component-5-instance {
+    height: 17px !important;
+    left: 274px !important;
+    position: absolute !important;
+    top: 495px !important;
+    width: 45px !important;
+  }
+  
+  .community .icon-instance-node {
+    height: 17px !important;
+    left: 276px !important;
+    position: absolute !important;
+    top: 318px !important;
+    width: 45px !important;
+  }
+  
+  .community .overlap-5 {
+    height: 31px;
+    left: 22px;
+    position: absolute;
+    top: 94px;
+    width: 337px;
+  }
+  
+  .community .vector-8 {
+    height: 25px;
+    left: 4px;
+    position: absolute;
+    top: 3px;
+    width: 25px;
+  }
+  
+  .community .rectangle-3 {
+    background-color: #ffffff33;
+    border-radius: 20px;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 337px;
+  }
+  
+  .community .text-wrapper-10 {
+    color: #d9d9d966;
+    font-family: "STIXIntegralsSm-Bold", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 140px;
+  }
+  

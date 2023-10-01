@@ -1,0 +1,98 @@
+import React from "react";
+import { CircleLeft } from "./CircleLeft";
+import { Day } from "./Day";
+import { Finished } from "./Finished";
+import { Home } from "./Home";
+import { IconComponentNode } from "./IconComponentNode";
+import "./style.css";
+
+export const Health = () => {
+  return (
+    <div className="health">
+      <div className="div-2">
+        <div className="overlap">
+          <div className="overlap-2">
+            <img className="vector" alt="Vector" src="vector-2.svg" />
+            <div className="component">
+              <img className="img" alt="Vector" src="vector-3.svg" />
+              <img className="vector-2" alt="Vector" src="vector-4.svg" />
+              <img className="vector-3" alt="Vector" src="vector-5.svg" />
+              <img className="rectangle" alt="Rectangle" src="rectangle-1.svg" />
+              <div className="text-wrapper-2">14:20</div>
+            </div>
+            <img className="image" alt="Image" src="image-21.png" />
+          </div>
+          <div className="vector-wrapper">
+            <img className="vector-4" alt="Vector" src="image.svg" />
+          </div>
+          <img className="vector-5" alt="Vector" src="vector.svg" />
+          <Home className="iconly-bold-home" />
+        </div>
+        <div className="finished-workout">
+          <p className="headline">Log In your progress for Today</p>
+          <Finished
+            className="finished-instance"
+            subtitleClassName="finished-2"
+            tickSquareWrapperPath="path-2.svg"
+            tickSquareWrapperTickSquareTickSquareClassName="finished-3"
+          />
+          <Finished
+            className="finished-4"
+            subtitleClassName="finished-2"
+            text="25:00"
+            text1="Flash Cycling"
+            tickSquareWrapperPath="path-3.svg"
+            tickSquareWrapperTickSquareTickSquareClassName="finished-5"
+          />
+        </div>
+        <div className="graphics">
+          <div className="active-calories">
+            <div className="overlap-group-2">
+              <img className="ellipse" alt="Ellipse" src="ellipse-30.svg" />
+              <div className="text-wrapper-3">652</div>
+              <div className="text-wrapper-4">Cal</div>
+              <div className="subtitle-2">Active Calories</div>
+            </div>
+          </div>
+          <div className="steps">
+            <div className="overlap-3">
+              <img className="ellipse-2" alt="Ellipse" src="ellipse-34.svg" />
+              <div className="text-wrapper-5">6540</div>
+              <div className="subtitle-3">Steps</div>
+            </div>
+          </div>
+          <div className="time">
+            <div className="overlap-4">
+              <img className="ellipse-3" alt="Ellipse" src="ellipse-35.svg" />
+              <div className="subtitle-4">Time</div>
+              <div className="group">
+                <div className="text-wrapper-6">45</div>
+                <div className="subtitle-5">min</div>
+              </div>
+            </div>
+          </div>
+          <div className="heart">
+            <div className="overlap-4">
+              <img className="ellipse-4" alt="Ellipse" src="ellipse-36.svg" />
+              <div className="subtitle-6">Heart</div>
+              <div className="group-2">
+                <div className="text-wrapper-6">72</div>
+                <div className="subtitle-5">bpm</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="days">
+          <Day className="day-instance" />
+          <Day className="day-2" text="T" text1="17" />
+          <Day className="day-4" dayClassName="day-3" numberClassName="day-3" text="W" text1="18" />
+          <Day className="day-5" text="T" text1="19" />
+          <Day className="day-6" text="F" text1="20" />
+          <Day className="day-7" text="S" text1="21" />
+        </div>
+        <CircleLeft className="circle-left" color="#2C2C2E" />
+        <IconComponentNode className="circle-left-instance" />
+      </div>
+    </div>
+  );
+};
