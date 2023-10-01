@@ -30,10 +30,28 @@ class Story {
   class StoryDatabase {
     constructor() {
       this.stories = [];
-      this.filePath = "storyInfo.txt"; // Define the file path here
+      this.filePath = "storyInfo.txt"; 
       this.readFromFile();
     }
-  
+    
+    readFromFile() {
+      try {
+        const fileContents = fs.readFileSync(this.filePath, "utf8");
+        const data = fileContents.split("\n");
+    
+        for (const line of data) {
+          const [title, text] = line.split(",").map((item) => item.trim());
+          if (title && text) {
+            const story = new Story(title, text);
+            this.stories.push(story);
+          }
+        }
+      } catch (error) {
+        console.error("Error reading file:", error);
+      }
+    }
+    
+
     readFromFile() {
       try {
         const fileContents = fs.readFileSync(this.filePath, "utf8");
@@ -52,9 +70,9 @@ class Story {
     }
   
     createStory() {
-      const title = readlineSync.question("Enter the story title: ");
-      const text = readlineSync.question("Enter the story text: ");
-  
+      const title = prompt("Enter the story title: ");
+      const text = prompt("Enter the story text: ");
+    
       const story = new Story(title, text);
       this.stories.push(story);
       this.writeToFile(story.toLine());
@@ -63,10 +81,12 @@ class Story {
   
     writeToFile(formattedLine) {
       try {
-        fs.appendFileSync(this.filePath, formattedLine + "\n", "utf8");
+        fs.appendFileSync(this.filePath, "\n" + formattedLine, "utf8");
       } catch (error) {
         console.error("Error writing to file:", error);
       }
     }
   }
   
+
+  module.exports = { Story, StoryDatabase };

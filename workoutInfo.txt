@@ -1,0 +1,7 @@
+Beginner Workout,Strength,Push-ups;Squats;Planks
+Cardio Workout,Cardio,Running;Jumping jacks;Cycling
+Upper Body Workout,Strength,Push-ups;Pull-ups;Bicep curls
+Leg Day,Strength,Squats;Deadlifts;Lunges
+Core Workout,Strength,Planks;Russian twists;Leg raises
+HIIT Workout,High-Intensity Interval Training,Sprints;Burpees;Mountain climbers
+Yoga,Stretching,Downward dog;Warrior pose;Child's pose

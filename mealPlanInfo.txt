@@ -1,0 +1,5 @@
+Healthy Diet,Breakfast: Oatmeal; Lunch: Grilled Chicken Salad; Dinner: Baked Salmon with Quinoa,1000,50
+Vegan Lifestyle,Breakfast: Fruit Smoothie; Lunch: Chickpea Salad; Dinner: Roasted Vegetables with Brown Rice,1200,35
+Low-Carb Diet,Breakfast: Scrambled Eggs; Lunch: Grilled Shrimp with Asparagus; Dinner: Steak with Broccoli,1500,60
+Keto Diet,Breakfast: Avocado and Bacon; Lunch: Spinach and Feta Stuffed Chicken; Dinner: Beef Stir-Fry with Cauliflower Rice,1800,70
+Vegetarian Delight,Breakfast: Greek Yogurt with Berries; Lunch: Quinoa and Black Bean Bowl; Dinner: Vegetable Curry,1400,45

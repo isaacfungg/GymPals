@@ -1,3 +1,6 @@
+const fs = require("fs");
+const readlineSync = require("readline-sync");
+
 class MealPlan {
     constructor(title, recipe, calories, protein) {
       this.title = title;
@@ -45,6 +48,23 @@ class MealPlanDatabase {
       this.filePath = 'mealInfo.txt'; 
       this.readFromFile();
     }
+
+    displayMealPlans() {
+      if (this.mealPlans.length === 0) {
+        console.log("No meal plans available.");
+        return;
+      }
+  
+      console.log("Meal Plans:");
+      this.mealPlans.forEach((mealPlan, index) => {
+        console.log(`#${index + 1}`);
+        console.log(`Title: ${mealPlan.getTitle}`);
+        console.log(`Recipes: ${mealPlan.getRecipes.join(', ')}`);
+        console.log(`Calories: ${mealPlan.getCalories}`);
+        console.log(`Protein: ${mealPlan.getProtein}`);
+        console.log(); 
+      });
+    }
   
     readFromFile() {
       try {
@@ -80,10 +100,11 @@ class MealPlanDatabase {
   
     writeToFile(formattedLine) {
       try {
-        fs.appendFileSync(this.filePath, formattedLine + '\n', 'utf8');
+        fs.appendFileSync(this.filePath, "\n" + formattedLine, 'utf8');
       } catch (error) {
         console.error('Error writing to file:', error);
       }
     }
   }
   
+  module.exports = { MealPlan, MealPlanDatabase };

@@ -1,3 +1,6 @@
+const fs = require("fs");
+const readlineSync = require("readline-sync");
+
 class WorkoutPlan {
     constructor(title, exerciseType, exercises) {
       this.title = title;
@@ -60,6 +63,22 @@ class WorkoutPlan {
         console.error("Error reading file:", error);
       }
     }
+
+    displayWorkouts() {
+      if (this.workouts.length === 0) {
+        console.log("No workout plans available.");
+        return;
+      }
+  
+      console.log("Workout Plans:");
+      this.workouts.forEach((workout, index) => {
+        console.log(`#${index + 1}`);
+        console.log(`Title: ${workout.getTitle}`);
+        console.log(`Exercise Type: ${workout.getExerciseType}`);
+        console.log(`Exercises: ${workout.getExercises.join(', ')}`);
+        console.log(); 
+      });
+    }
   
     createWorkout() {
       const title = readlineSync.question("Enter the workout title: ");
@@ -76,10 +95,13 @@ class WorkoutPlan {
   
     writeToFile(formattedLine) {
       try {
-        fs.appendFileSync(this.filePath, formattedLine + "\n", "utf8");
+        fs.appendFileSync(this.filePath, "\n" + formattedLine, "utf8");
         console.log("Workout plan saved to file successfully.");
+        console.log();
       } catch (error) {
         console.error("Error writing to file:", error);
       }
     }
   }
+
+  module.exports = { WorkoutPlan, WorkoutPlanDatabase };
