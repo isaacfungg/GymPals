@@ -7,22 +7,18 @@ class Account {
     this.password = password;
   }
 
-  // Getter for username
   getUsername() {
     return this.username;
   }
 
-  // Setter for username
   setUsername(username) {
     this.username = username;
   }
 
-  // Getter for password
   getPassword() {
     return this.password;
   }
 
-  // Setter for password
   setPassword(password) {
     this.password = password;
   }
@@ -31,14 +27,15 @@ class Account {
 class AccountDatabase {
   constructor() {
     this.accounts = [];
+    this.readFromFile('accountInfo.txt'); 
   }
 
   readFromFile(filePath) {
     try {
       const fileContents = fs.readFileSync(filePath, 'utf8');
-      const lines = fileContents.split('\n');
+      const data = fileContents.split('\n');
 
-      for (const line of lines) {
+      for (const line of data) {
         const [username, password] = line.split(',');
         if (username && password) {
           const account = new Account(username, password);
@@ -52,34 +49,39 @@ class AccountDatabase {
     }
   }
 
-  // Create a new account and add it to the database
   createAccount() {
-    const username = readlineSync.question('Enter a username: ');
+    let username;
+    let password;
+
+    do {
+      username = readlineSync.question('Enter a username: ');
 
     if (this.isUsernameTaken(username)) {
       console.log('Username is already taken. Please choose another.');
-      this.createAccount();
-      return;
-    }
+      }
+    } while (this.isUsernameTaken(username));
 
-    const password = readlineSync.question('Enter a password (at least 8 characters): ', {
-      hideEchoBack: true,
-    });
+    do {
+      password = readlineSync.question('Enter a password (at least 8 characters): ', {
+        hideEchoBack: true,
+      });
 
-    if (password.length < 8) {
-      console.log('Password must be at least 8 characters long.');
-      this.createAccount();
-      return;
-    }
+      if (password.length < 8) {
+        console.log('Password must be at least 8 characters long.');
+      }
+    } while (password.length < 8);
 
     const account = new Account(username, password);
     this.accounts.push(account);
     console.log('Account created successfully.');
   }
 
-  // Check if a username is already taken
   isUsernameTaken(username) {
     return this.accounts.some((account) => account.getUsername() === username);
+  }
+
+  login(username, password) {
+    return this.accounts.find((acc) => acc.getUsername() === username && acc.getPassword() === password);
   }
 
   // List all accounts
